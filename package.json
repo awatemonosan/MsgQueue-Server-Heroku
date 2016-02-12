@@ -1,0 +1,41 @@
+{
+  "name": "msgqueue-server-heroku",
+  "version": "0.1.0",
+  "description": "Example of MsgQueue-server deployment for Heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "0.12.7"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awatemonosan/MsgQueue-Server-Heroku.git"
+  },
+  "keywords": [
+    "msgqueue",
+    "message",
+    "queue",
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "John Winstead <awatemonosan@gmail.com> (johnwinstead.ninja)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awatemonosan/MsgQueue-Server-Heroku/issues"
+  },
+  "homepage": "https://github.com/awatemonosan/MsgQueue-Server-Heroku#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "msgqueue-server": "^0.1.0",
+    "pidgey": "^0.1.0",
+    "ejs": "2.3.3",
+    "express": "4.13.3"
+  },
+}
