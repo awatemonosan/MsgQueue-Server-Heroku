@@ -35,7 +35,7 @@
   "dependencies": {
     "ejs": "2.3.3",
     "express": "4.13.3",
-    "msgqueue-server": "^0.1.4",
+    "msgqueue-server": "^0.1.5",
     "pidgey": "^0.1.2"
   }
 }
