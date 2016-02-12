@@ -33,9 +33,9 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
-    "msgqueue-server": "^0.1.0",
-    "pidgey": "^0.1.0",
     "ejs": "2.3.3",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "msgqueue-server": "^0.1.1",
+    "pidgey": "^0.1.0"
   }
 }
