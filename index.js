@@ -1,6 +1,9 @@
 var express = require('express');
 var app = express();
 
+var MsgQueuePlugin = require('msgqueue-server');
+var msgQueue = new MsgQueuePlugin(app);
+
 app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + '/public'));
